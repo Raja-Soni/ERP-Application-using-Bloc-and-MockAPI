@@ -1,16 +1,7 @@
-# erp_using_api
+# erp_using_mockapi_and_bloc
 
-A new Flutter project.
+* Built a Sales Order Management App in Flutter with order listing, creation, and filtering (All, Today’s, Pending, Delivered), along with a form-based New Order page featuring auto-calculated totals and validation.
 
-## Getting Started
+* Implemented BLoC state management to separate UI from business logic, enabling predictable state handling, scalability, and a clean architecture for long-term maintainability.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Integrated a Mock API for simulating backend communication and SharedPreferences to persist dark mode preferences, while improving the user experience with daily sales summaries and alerts for high-value orders.
